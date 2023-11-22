@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F2F4;
+}
+
+.nav1 {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    height: 9vh;
+    width: 100vw;
+    padding: 1%;
+}
+
+.nav1 .logo {
+    margin-left: 1%;
+}
+
+.nav1 form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    width: 49.5%;
+    height: 90%;
+    padding-left: 10px;
+    background-color: #F0F5FF;
+    border: none;
+    border-radius: 6px;
+}
+
+.nav1 form input {
+    font-size: large;
+    height: 100%;
+    flex-grow: 1;
+    border: none;
+    background-color: #F0F5FF;
+    border-radius: 6px;
+    font-family: 'inter', sans-serif;
+}
+
+.nav1 form i {
+    color: #717478;
+}
+
+.nav1 button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    border: none;
+}
+
+.nav1 button i {
+    /* color: white; */
+}
+
+.nav1 button a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.nav2 {
+    position: absolute;
+    height: 17vh;
+    margin-top: 10.3vh;
+    width: 98vw;
+    margin-left: 1%;
+    display: flex;
+    background-color: white;
+    padding: 15px 160px;
+    justify-content: space-between;
+}
+
+.nav2 .category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 .category div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav2 .category img {
+    height: 64px;
+    width: 64px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+}
